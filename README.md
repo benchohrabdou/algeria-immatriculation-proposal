@@ -23,8 +23,24 @@ Ce dépôt propose un nouveau système d'immatriculation algérien **neutre, mod
 | Bus | 3 |
 | … jusqu'à 9 | - |
 
-### 2. Année de fabrication
-Format 4 chiffres (ex : 1998, 2024, 2084).
+### 2. Année de fabrication (2 chiffres)
+
+L’année n’est pas écrite en 4 chiffres mais codée sur **2 chiffres**, allant de **85 à 84**, couvrant les années **1985 à 2084**.
+
+Ce codage fonctionne comme un cycle modulo 100 :
+
+- 85 → 1985  
+- 86 → 1986  
+- …  
+- 99 → 1999  
+- 00 → 2000  
+- 01 → 2001  
+- …  
+- 24 → 2024  
+- …  
+- 84 → 2084  
+
+Ce format permet de réduire la longueur de la plaque tout en maintenant une plage de 100 ans, largement suffisante pour les véhicules en circulation.
 
 ### 3. Numéro de série en base 26
 Conversion du numéro en alphabet :
